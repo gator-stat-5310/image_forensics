@@ -1,4 +1,4 @@
-from keras.datasets import mnist
+from tensorflow.keras.datasets import mnist
 
 # loading the dataset
 (X_train, y_train), (X_test, y_test) = mnist.load_data()
@@ -12,7 +12,7 @@ print("X_train", X_train[0])
 print("y_train", y_train[0])
 
 # keras imports for the dataset and building our neural network
-from keras.datasets import mnist
+from tensorflow.keras.datasets import mnist
 from keras.models import Sequential
 from keras.layers import Dense, Dropout, Conv2D, MaxPool2D
 from keras.utils import np_utils

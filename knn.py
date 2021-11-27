@@ -1,4 +1,4 @@
-import image_slicer
+import ImageSlicer
 import numpy as np
 
 base_path = r"C:\Users\JasSu\PycharmProjects\machinelearning\data"
